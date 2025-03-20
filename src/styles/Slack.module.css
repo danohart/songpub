@@ -141,14 +141,6 @@
     transform: scale(0.98);
   }
   
-  code {
-    background-color: #F1F5F9;
-    padding: 0.2rem 0.4rem;
-    border-radius: 0.25rem;
-    font-family: monospace;
-    font-size: 0.9em;
-  }
-  
   .footer {
     display: flex;
     flex: 1;
