@@ -1,0 +1,169 @@
+.container {
+    padding: 0 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .logo {
+    margin: 0 0 2rem 0;
+    font-size: 3rem;
+    background: linear-gradient(45deg, #1DB954, #4285F4, #FF0000, #FF5500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  
+  .successCard, .errorCard {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .successIcon, .errorIcon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem auto;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .successIcon {
+    background-color: #E6F7EB;
+    color: #1DB954;
+  }
+  
+  .errorIcon {
+    background-color: #FEECDC;
+    color: #FF5500;
+  }
+  
+  .successCard h2, .errorCard h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.8rem;
+  }
+  
+  .successCard p, .errorCard p {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .usageInstructions, .troubleshooting {
+    background-color: #F9FAFB;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .usageInstructions h3, .troubleshooting h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .usageInstructions ol, .troubleshooting ul {
+    margin: 0;
+    padding-left: 1.5rem;
+  }
+  
+  .usageInstructions li, .troubleshooting li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .actions {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  .button, .secondaryButton {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.1s ease, opacity 0.2s ease;
+    text-decoration: none;
+  }
+  
+  .button {
+    background: linear-gradient(45deg, #1DB954, #4285F4);
+    color: white;
+    border: none;
+  }
+  
+  .secondaryButton {
+    background: transparent;
+    border: 2px solid #6B7280;
+    color: #6B7280;
+  }
+  
+  .button:hover, .secondaryButton:hover {
+    opacity: 0.9;
+  }
+  
+  .button:active, .secondaryButton:active {
+    transform: scale(0.98);
+  }
+  
+  code {
+    background-color: #F1F5F9;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-family: monospace;
+    font-size: 0.9em;
+  }
+  
+  .footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: #0070f3;
+    text-decoration: none;
+  }
