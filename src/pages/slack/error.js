@@ -29,8 +29,8 @@ export default function SlackError() {
           <div className={styles.troubleshooting}>
             <h3>Troubleshooting:</h3>
             <ul>
-              <li>Make sure you're an admin of the Slack workspace</li>
-              <li>Check that you've granted all the required permissions</li>
+              <li>Make sure you are an admin of the Slack workspace</li>
+              <li>Check that you have granted all the required permissions</li>
               <li>Try installing the app again</li>
             </ul>
           </div>
